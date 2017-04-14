@@ -1,0 +1,36 @@
+.navbar {
+    height: auto;
+    min-height: auto;
+    margin-bottom: 0;
+    padding: 12px 0;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+}
+
+.nav-logo {
+    float: left;
+    padding: 10px 20px;
+}
+
+.nav-buttons {
+    float: right;
+}
+
+.nav-buttons ul {
+    margin: 0;
+}
+
+.nav-buttons ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.nav-buttons ul li a {
+    padding: 10px 20px;
+    color: #fff;
+} 
+.nav-buttons ul li a:hover {
+    color: #fff;
+}

@@ -10,7 +10,7 @@ const RouteConfig = (
         <Route path="/">
             <IndexRoute component={IdeaList}/>
             <Route path="/list" component={IdeaList}></Route>          // 创意列表页
-            <Route path="/edit" component={IdeaEditor}></Route>        // 创意编辑页
+            <Route path="/editor" component={IdeaEditor}></Route>      // 创意编辑页
             <Route path="/preview" component={IdeaPreview}></Route>    // 创意预览页
         </Route>
     </Router>

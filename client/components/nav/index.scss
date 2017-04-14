@@ -1,0 +1,71 @@
+.crumbs {
+    margin-left: 85px; 
+}
+.crumbs ul {
+    height: 40px;
+}
+.crumbs ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: -3px;
+}
+
+.crumbs ul li a {
+    display: block;
+    float: left;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background: #dadada;
+    text-align: center;
+    position: relative;
+    margin: 0 10px 0 0;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+}
+
+.crumbs ul li a:after {
+    content: "";
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 15px solid #dadada;
+    position: absolute;
+    right: -15px;
+    top: 0;
+}
+
+.crumbs ul li:first-child {
+    z-index: 3;
+}
+
+.crumbs ul li:nth-child(2) {
+    z-index: 2;
+}
+
+.crumbs ul li a:before {
+    content: "";
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 15px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.crumbs ul li:first-child a:before {
+    display: none;
+}
+
+.crumbs ul li:last-child a:after {
+    display: none;
+}
+
+.crumbs ul li a.active  {
+    background: #20bb87;
+    color: #fff;
+}
+.crumbs ul li a.active:after {
+    border-left: 15px solid #20bb87;
+}
